@@ -1,0 +1,9 @@
+git clone https://github.com/Jerzol/epg1_git.git
+cd epg1_git/
+git branch hw-s17635
+git checkout rebase-me
+git rebase hw-s17635
+git checkout hw-s17635
+git merge rebase-me
+git merge origin/merge-me
+git commit
